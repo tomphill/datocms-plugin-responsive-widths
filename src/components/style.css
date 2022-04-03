@@ -1,0 +1,35 @@
+.device {
+  border: 1px solid #333;
+  border-bottom-width: 10px;
+  border-radius: 3px;
+  position: relative;
+  margin: 5px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px;
+  align-content: center;
+  overflow: hidden;
+}
+
+.device-button {
+  height: 4px;
+  width: 4px;
+  background: white;
+  left: 50%;
+  margin-left: -2px;
+  bottom: -7px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.col {
+  height: 3px;
+  box-sizing: border-box;
+  background: #ccc;
+  margin: 1px;
+  line-height: 1;
+}
+
+.col-active {
+  background: var(--primary-color);
+}
