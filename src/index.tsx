@@ -4,14 +4,10 @@ import {
   RenderFieldExtensionCtx,
 } from "datocms-plugin-sdk";
 import { render } from "./utils/render";
-import ConfigScreen from "./entrypoints/ConfigScreen";
 import "datocms-react-ui/styles.css";
 import ResponsiveWidths from "./components/ResponsiveWidths";
 
 connect({
-  renderConfigScreen(ctx) {
-    return render(<ConfigScreen ctx={ctx} />);
-  },
   manualFieldExtensions(ctx: IntentCtx) {
     return [
       {
