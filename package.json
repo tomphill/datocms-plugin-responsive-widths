@@ -1,6 +1,7 @@
 {
   "name": "datocms-plugin-responsive-widths",
   "author": "Tom Phillips <info@tomphill.co.uk>",
+  "homepage": "https://github.com/tomphill/datocms-plugin-responsive-widths",
   "description": "A simple plugin that allows saving large, medium, and small widths, for use with column blocks",
   "license": "ISC",
   "version": "0.1.1",
